@@ -10,4 +10,4 @@ def test_multiplication():
     assert my_math.multiply(2, 4) == 8, "Should be 8"
 
 def test_divide():
-    assert False, "This test is designed to fail"
+    assert my_math.divide(6, 3) == 2, "Should be 2"
